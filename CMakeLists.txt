@@ -42,6 +42,8 @@ set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 
 set_property(GLOBAL PROPERTY GLOBAL_DEPENDS_NO_CYCLES ON)
 
+set(CMAKE_CUDA_ARCHITECTURES "native")
+
 ################################################################################
 # Include CMake dependencies
 ################################################################################
